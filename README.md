@@ -1,5 +1,4 @@
-Interpolation Repair Repository
-Due to the repository size, pushing this project directly to the remote repository encountered issues. However, you can still work on this by cloning the following repository and modifying the Python files, all of which have the same names:
+Due to the repository size, pushing this project directly to the remote repository encountered issues. However, you can still work on this by cloning the following repository and replacing the relevant python files with those in this repo, all of which have the same names:
 
 Clone this repository:
 
