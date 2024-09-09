@@ -1,12 +1,8 @@
 Interpolation Repair
-Due to the repository size, pushing this project directly to the remote repository encountered issues. However, you can still work on this by cloning the following repository and modifying the Python files, all of which have the same names:
+Due to the repository size, pushing this project directly to the remote repository encountered issues. However, you can still work on this by cloning the following repository and replacing the modified Python files, all of which have the same names:
 
 Clone this repository:
-Bash
 https://github.com/Noobcoder64/interpolation-repair
-Use code with caution.
-
-Once cloned, make sure to follow the steps below for setting up the necessary environment and adding the JAR files as per the project requirements.
 
 Setup Instructions
 1. Install Conda
@@ -18,9 +14,8 @@ conda create -n py27 python=2.7
 Use code with caution.
 
 3. Activate Python 3.8 Environment
-Bash
+
 conda activate py38
-Use code with caution.
 
 4. Install Required Packages
 Package	Version	Installation Command
@@ -30,7 +25,6 @@ Numpy	v1.25.2	conda install -c conda-forge numpy
 Pandas	latest	conda install pandas
 Matplotlib	latest	conda install matplotlib
 
-Export to Sheets
 5. JAR Files
 Make sure to place your JAR files in the appropriate directory as needed by the project.
 If required, add any missing JAR files in your local repository setup to ensure proper functionality.
@@ -38,3 +32,5 @@ If required, add any missing JAR files in your local repository setup to ensure 
 Update your LD_LIBRARY_PATH to point to the Spectra library:
 Bash
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/spectra
+
+Add the jar files in this repository to the spectra directory. The one labelled No Order does not re-order the 
