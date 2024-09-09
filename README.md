@@ -9,7 +9,7 @@ jpype.startJVM(classpath=["/homes/pmb223/interpolation-repair/spectra/SpectraToo
                "/homes/pmb223/interpolation-repair/spectra/SpectraTool.jar", 
                "/homes/pmb223/interpolation-repair/spectra/dependencies/*"])
 
-The java files in this repo are a small part of the compiled jar files used in this project, their only relevance is to show how traces are computed. 
+The java files in this repo are a small part of the compiled java code used in this project, their only relevance is to show how traces are computed. 
 
 Update your LD_LIBRARY_PATH to point to the Spectra library as follows:
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/spectra
