@@ -1,36 +1,35 @@
-Interpolation Repair
-Due to the repository size, pushing this project directly to the remote repository encountered issues. However, you can still work on this by cloning the following repository and replacing the modified Python files, all of which have the same names:
+Interpolation Repair Repository
+Due to the repository size, pushing this project directly to the remote repository encountered issues. However, you can still work on this by cloning the following repository and modifying the Python files, all of which have the same names:
 
 Clone this repository:
+
+bash
+Copy code
 https://github.com/Noobcoder64/interpolation-repair
+Once cloned, make sure to follow the steps below for setting up the necessary environment and adding the JAR files as per the project requirements.
 
 Setup Instructions
-1. Install Conda
-Refer to the Official Conda Installation Guide
-2. Create Conda Environments
-Bash
-conda create -n py38 python=3.8
+Step	Command
+Install Conda	Official Conda Installation Guide
+Create Conda Environments	conda create -n py38 python=3.8
 conda create -n py27 python=2.7
-Use code with caution.
+Activate Python 3.8 Environment	conda activate py38
+Install Python Spot (v2.11.6)	Spot Installation Guide
+conda install -c conda-forge spot
+Install Pyparsing (v3.1.1)	Pyparsing on Conda Forge
+conda install -c conda-forge pyparsing
+Install Numpy (v1.25.2)	Official Numpy Installation Guide
+conda install -c conda-forge numpy
+Install Pandas	Pandas Installation Guide
+conda install pandas
+Install Matplotlib	Matplotlib Installation Guide
+conda install matplotlib
+JAR Files
+Make sure to place your JAR files in the appropriate directory as needed by the project. If required, add any missing JAR files in your local repository setup to ensure proper functionality.
 
-3. Activate Python 3.8 Environment
+Spectra
+Update your LD_LIBRARY_PATH to point to the Spectra library as follows:
 
-conda activate py38
-
-4. Install Required Packages
-Package	Version	Installation Command
-Python Spot	v2.11.6	conda install -c conda-forge spot
-Pyparsing	v3.1.1	conda install -c conda-forge pyparsing
-Numpy	v1.25.2	conda install -c conda-forge numpy
-Pandas	latest	conda install pandas
-Matplotlib	latest	conda install matplotlib
-
-5. JAR Files
-Make sure to place your JAR files in the appropriate directory as needed by the project.
-If required, add any missing JAR files in your local repository setup to ensure proper functionality.
-6. Spectra
-Update your LD_LIBRARY_PATH to point to the Spectra library:
-Bash
+bash
+Copy code
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/spectra
-
-Add the jar files in this repository to the spectra directory. The one labelled No Order does not re-order the 
