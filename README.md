@@ -1,3 +1,4 @@
+Interpolation Repair Repository
 Due to the repository size, pushing this project directly to the remote repository encountered issues. However, you can still work on this by cloning the following repository and modifying the Python files, all of which have the same names:
 
 Clone this repository:
@@ -29,7 +30,6 @@ Make sure to place your JAR files in the appropriate directory as needed by the 
 Spectra
 Update your LD_LIBRARY_PATH to point to the Spectra library as follows:
 
-ruby
+bash
 Copy code
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/spectra
-This README file will guide users through the necessary setup process to run the project locally, including instructions for handling JAR files and setting up Spectra correctly. Let me know if you'd like to adjust any details!
